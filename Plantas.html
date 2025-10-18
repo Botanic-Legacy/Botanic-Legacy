@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receta: Manzanilla para la Piel - Botanic Legacy</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'primary-green': '#80ad3a', // Color principal para títulos y enlaces
+                        'secondary-green': '#80ad3a', // Color oscuro para footer y botones de contraste
+                        'light-bg': '#fffff1', // Fondo de la página y de las tarjetas de receta
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        .btn-hover-light:hover {
+            background-color: #fffff1; /* Un gris muy claro */
+            color: #80ad3a; 
+            border: 1px solid #80ad3a;
+        }
+    </style>
+</head>
+<body class="bg-white">
+    <header class="bg-[#80ad3a] text-white p-2 sticky top-0 z-10">
+        <div class="container mx-auto flex justify-between items-center px-4">
+            <div class="flex items-center text-xl font-bold tracking-widest uppercase">
+                Botanic Legacy
+            </div>
+            <nav class="hidden md:flex space-x-6 text-sm">
+                <a href="index.html" class="hover:text-green-400 transition-colors">INICIO</a>
+                <a href="recetas.html" class="hover:text-green-400 transition-colors">RECETAS</a>
+                <a href="plantas.html" class="hover:text-green-400 transition-colors">PLANTAS</a>
+                <a href="Contactanos.html" class="hover:text-green-400 transition-colors">CONTACTO</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container mx-auto p-8">
+        <section class="bg-[#fffff1] rounded-3xl shadow-xl p-6 md:p-12 mb-10 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold text-[#80ad3a] mb-4">
+                Nuestras Plantas
+            </h1>
+            <p class="text-lg md:text-xl text-gray-700 max-w-3xl mx-auto">
+                Descubre las propiedades, los cuidados y la sabiduría ancestral de cada planta.
+            </p>
+        </section>
+
+        <hr class="my-10 border-gray-300">
+
+        <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <article class="bg-[#fffff1] rounded-3xl p-6 shadow-xl flex flex-col items-center text-center">
+                <img src="SAVILA.PNG" alt="Sábila" class="w-32 h-32 rounded-full mb-4 object-cover">
+                <h2 class="text-2xl font-bold text-[#80ad3a] mb-2">Sábila (Aloe Vera)</h2>
+                <div class="space-y-4 text-left w-full">
+                    <div class="bg-white p-4 rounded-xl shadow-inner">
+                        <h3 class="font-semibold text-lg text-gray-800">Propiedades</h3>
+                        <p class="text-sm text-gray-600">
+                            Conocida por sus propiedades curativas y calmantes. Es antiinflamatoria, cicatrizante e hidratante. Se utiliza para tratar quemaduras, irritaciones de la piel y problemas digestivos.
+                        </p>
+                    </div>
+                    <div class="bg-white p-4 rounded-xl shadow-inner">
+                        <h3 class="font-semibold text-lg text-gray-800">Cultivo</h3>
+                        <p class="text-sm text-gray-600">
+                            Prefiere climas cálidos y secos. Necesita suelo bien drenado y abundante luz solar directa. Requiere poco riego, ya que almacena agua en sus hojas.
+                        </p>
+                    </div>
+                    <div class="bg-white p-4 rounded-xl shadow-inner">
+                        <h3 class="font-semibold text-lg text-gray-800">Condiciones para florecer</h3>
+                        <p class="text-sm text-gray-600">
+                            Generalmente florece en verano. Necesita una maceta grande para que sus raíces se expandan y un periodo de temperaturas más frescas en invierno para inducir la floración.
+                        </p>
+                    </div>
+                </div>
+            </article>   
+
+            
+
+            <article class="bg-[#fffff1] rounded-3xl p-6 shadow-xl flex flex-col items-center text-center">
+                <img src="Manzanilla.png" alt="Manzanilla" class="w-32 h-32 rounded-full mb-4 object-cover">
+                <h2 class="text-2xl font-bold text-[#80ad3a] mb-2">Manzanilla</h2>
+                <div class="space-y-4 text-left w-full">
+                    <div class="bg-white p-4 rounded-xl shadow-inner">
+                        <h3 class="font-semibold text-lg text-gray-800">Propiedades</h3>
+                        <p class="text-sm text-gray-600">
+                            Famosa por sus efectos relajantes y sedantes. Ayuda a aliviar el estrés, la ansiedad y el insomnio. También es antiinflamatoria y alivia dolores estomacales y cólicos.
+                        </p>
+                    </div>
+                    <div class="bg-white p-4 rounded-xl shadow-inner">
+                        <h3 class="font-semibold text-lg text-gray-800">Cultivo</h3>
+                        <p class="text-sm text-gray-600">
+                            Se adapta a una variedad de climas, pero prefiere el sol pleno y suelos fértiles y bien drenados. Es una planta resistente y fácil de cuidar.
+                        </p>
+                    </div>
+                    <div class="bg-white p-4 rounded-xl shadow-inner">
+                        <h3 class="font-semibold text-lg text-gray-800">Condiciones para florecer</h3>
+                        <p class="text-sm text-gray-600">
+                            Florece durante la primavera y el verano. Para una floración abundante, necesita varias horas de sol al día y un riego constante, pero sin encharcamientos.
+                        </p>
+                    </div>
+                </div>
+            </article>
+
+            <article class="bg-[#fffff1] rounded-3xl p-6 shadow-xl flex flex-col items-center text-center">
+                <img src="CALENDULA.png" alt="Caléndula" class="w-32 h-32 rounded-full mb-4 object-cover">
+                <h2 class="text-2xl font-bold text-[#80ad3a] mb-2">Calendula</h2>
+                <div class="space-y-4 text-left w-full">
+                    <div class="bg-white p-4 rounded-xl shadow-inner">
+                        <h3 class="font-semibold text-lg text-gray-800">Propiedades</h3>
+                        <p class="text-sm text-gray-600">
+                            Posee propiedades antioxidantes, antiinflamatorias y digestivas. Mejora la circulación, estimula la memoria y ayuda a aliviar los dolores musculares. Es muy versátil en la cocina y la medicina natural.
+                        </p>
+                    </div>
+                    <div class="bg-white p-4 rounded-xl shadow-inner">
+                        <h3 class="font-semibold text-lg text-gray-800">Cultivo</h3>
+                        <p class="text-sm text-gray-600">
+                            Es una planta mediterránea que adora el sol pleno y los suelos secos y arenosos. Es muy resistente a la sequía y no tolera el exceso de humedad en las raíces.
+                        </p>
+                    </div>
+                    <div class="bg-white p-4 rounded-xl shadow-inner">
+                        <h3 class="font-semibold text-lg text-gray-800">Condiciones para florecer</h3>
+                        <p class="text-sm text-gray-600">
+                            Florece principalmente en primavera, pero puede tener floraciones esporádicas a lo largo del año en climas templados. Necesita mucha luz solar para producir sus pequeñas flores amarillas .
+                        </p>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <hr class="my-10 border-gray-300">
+
+    <footer class="bg-[#80ad3a] text-white text-center p-6 mt-12">
+        <p>&copy; 2025 Botanic Legacy. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
